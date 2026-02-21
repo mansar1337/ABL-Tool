@@ -2,7 +2,7 @@
 
 **GUI-утилита для извлечения, редактирования и перепаковки LZMA-сжатого кода из Qualcomm ABL загрузчиков.**
 
-![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS-blue)
+![Platform](https://img.shields.io/badge/-Linux-grey?logo=linux)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Qt](https://img.shields.io/badge/Qt-6.x-41CD52?logo=qt)
 
@@ -31,14 +31,6 @@ ABL Tool — это графический инструмент для рабо�
 
 ---
 
-## 🖼️ Скриншоты
-
-![ABL Tool Interface](https://via.placeholder.com/1200x600/1a1a2e/00ff00?text=ABL+Tool+Interface)
-
-*Главное окно программы с тёмной темой, списком FVH блоков, hex-редактором и логами*
-
----
-
 ## 📦 Зависимости
 
 ### Linux (Debian/Ubuntu)
@@ -55,15 +47,6 @@ sudo dnf install cmake qt6-qtbase-devel xz-devel gcc-c++
 ```bash
 sudo pacman -S cmake qt6-base xz base-devel
 ```
-
-### macOS (Homebrew)
-```bash
-brew install cmake qt6 xz
-```
-
-### Windows
-Установите [Qt Online Installer](https://www.qt.io/download-qt-installer) и выберите Qt 6.x с компонентом MinGW/MSVC.
-
 ---
 
 ## 🛠️ Сборка
@@ -191,7 +174,7 @@ cmake --build build -j$(nproc)
 
 ## 👤 Автор
 
-**@xendr4x** / **@mansar1337**
+**@xendr4x**
 
 GitHub: [mansar1337/ABL-Tool](https://github.com/mansar1337/ABL-Tool)
 
